@@ -1,2 +1,1 @@
-# PerforceBuildDSLSettings
 # Checkout2VCS
