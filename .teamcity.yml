@@ -6,8 +6,9 @@ jobs:
         script-content: cat README.md
         working-directory: '1'
       - type: script
-        script-content: cat README.md
-                        ls
+        script-content: |-
+          cat README.md
+          ls
         working-directory: '2'
     repositories:
       - main:
