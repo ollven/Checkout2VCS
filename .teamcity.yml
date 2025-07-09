@@ -1,0 +1,17 @@
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: script
+        script-content: cat README.md
+        working-directory: '1'
+      - type: script
+        script-content: cat README.md
+        working-directory: '2'
+    repositories:
+      - main:
+          path: '1'
+          enabled: true
+      - https://github.com/ollven/PPLSecondary:
+          path: '2'
+          enabled: true
